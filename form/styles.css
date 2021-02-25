@@ -1,0 +1,91 @@
+html,body
+{
+    background-color: rgb(255, 255, 255);
+}
+img {
+    width: 284px;
+    /* position: fixed; */
+    animation-duration: 3s;
+  animation-name: slideimage;
+  animation-iteration-count: infinite;
+}
+@keyframes slideimage {
+    from {
+      margin-left: 100%;
+      
+    }
+  
+    75% {
+      font-size: 300%;
+      margin-left: 25%;
+      
+    }
+  
+    to {
+      margin-left: 0%;
+    
+    }
+}
+div.form-container
+{
+   text-align: start;
+   background-color: #27fb8178;
+   width: 50%;
+   margin-left: 25%;
+   margin-top: 25px;
+   
+}
+div.submit-container
+{
+    text-align: center;
+}
+p.form-heading {
+    text-align:center;
+    font-size: 32px;
+    font-family:'Times New Roman', Times, serif;
+}
+.Admission-Form {
+    text-align: center;
+    font-size: 38px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+hr
+{
+    border: 1px solid;
+}
+
+div.form-container span {
+    text-align: start;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.form-container input,textarea {
+    text-align: start;
+    width: 40%;
+    height: 23px;
+    border: 0px solid;
+    margin-bottom: 10px;
+}
+input[type="submit"] {
+    /* padding: 38px; */
+    height: 50px;
+    background: white;
+    font-size: 27px;
+    font-variant: small-caps;
+    border: 2px solid;
+    text-align : center;
+}
+.error-msg
+{
+    color: red;
+}
+.form-container select
+{
+    width: 15%;
+    height: 23px;
+    border: 0px solid;
+    margin-bottom: 10px;
+}
